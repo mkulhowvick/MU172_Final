@@ -13,9 +13,8 @@ html {
 /* Text */
 p {
 	font-size: 1.25em;
-}
-a {
-	font-size: 1.0em;
+	text-indent: 1.0em;
+	margin: 0em;
 }
 h1 {
 	font-size: 2.5em;
@@ -28,6 +27,15 @@ h2 {
 h3{
 	font-size: 1.5em;
 	text-decoration: underline;
+}
+article li {
+	font-size: 1.25em;
+}
+nav li {
+	font-size: 1.25em;
+}
+article li ol li {
+	font-size: 1.0em;
 }
 table tr td ul li {
 	font-size: 1.5em;
