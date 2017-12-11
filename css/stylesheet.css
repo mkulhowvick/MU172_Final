@@ -48,13 +48,13 @@ table figure figcaption{
 
 /* Links */
 a:link {
-	color: #8C271A;
+	color: #004B3C;
 }
 a:hover {
 	color: #222222;
 }
 a:visited {
-	color: #8C271A;
+	color: #004B3C;
 }
 
 /* Lists */
@@ -79,13 +79,13 @@ nav ul li {
 }
 nav ul li a:hover {
 	color: #000000;
-	background-color: #53A569;
+	background-color: #969696;
 }
 nav a:link {
 	color: #FFFFFF;
 }
 nav a:hover {
-	color: #53A569;
+	color: #969696;
 }
 nav a:visited {
 	color: #FFFFFF;
@@ -106,7 +106,7 @@ article ul li {
 	padding: 0em;
 	display: inline-block;
 	
-	background-color: #3C0700;
+	background-color: #001B16;
 	border: solid #000000;
 }
 article ul li a {
@@ -117,14 +117,14 @@ article ul li a {
     text-align: left;
     text-decoration: none;
 	
-	background-color: #3C0700;
+	background-color: #001B16;
 }
 article ul li a:link {
 	color: #FFFFFF;
 }
 article ul li a:hover {
 	color: #000000;
-	background-color: #8C271A;
+	background-color: #004B3C;
 }
 article ul li a:visited {
 	color: #FFFFFF;
@@ -172,13 +172,13 @@ table tr th a:visited {
 	color: #FFFFFF;
 }
 table a:link {
-	color: #53A569;
+	color: #969696;
 }
 table a:hover {
 	color: #222222;
 }
 table a:visited {
-	color: #53A569;
+	color: #969696;
 }
 
 /* Figure */
@@ -241,7 +241,7 @@ figcaption {
     text-align: center;
     text-decoration: none;
 	
-	background-color: #3C0700;
+	background-color: #001B16;
 }
 .button {
 	border: none;
@@ -255,7 +255,7 @@ figcaption {
 }
 .venue tr td {
 	color: #FFFFFF;
-	background-color: #3C0700;
+	background-color: #001B16;
 	border: solid #000000;
 }
 .artist {
@@ -265,7 +265,7 @@ figcaption {
 }
 .artist tr td {
 	color: #FFFFFF;
-	background-color: #3C0700;
+	background-color: #001B16;
 	border: solid #000000;
 }
 .table1-left {
@@ -318,20 +318,21 @@ figcaption {
 }
 #criteria th {
 	color: #FFFFFF;
-	background-color: #3C0700;
+	background-color: #001B16;
 }
 #criteria tr {
 	color: #000000;
-	background-color: #DD7C70;
+	background-color: #1B7765;
 }
 #criteria tr:nth-child(odd) {
 	color: #000000;
-	background-color: #8C271A;
+	background-color: #004B3C;
 }
 
 /* IDs */
 #body {
 	width: 65%;
+	min-width: 600px;
 	
 	margin: 0 auto;
 	padding: 0em;
@@ -352,6 +353,7 @@ figcaption {
 }
 #sidebar {
 	width: 15%;
+	min-width: 100px;
 	height: auto;
 	
 	margin-top: 0em;
@@ -361,7 +363,7 @@ figcaption {
 	padding: 0em;
 	position: fixed;
 	
-	background-color: #8C271A;
+	background-color: #004B3C;
 	border: solid #000000;
 	
 	overflow: auto;
@@ -377,7 +379,7 @@ figcaption {
 	margin-right: 0em;
 	padding: 1em;
 	
-	background-color: #53A569;
+	background-color: #969696;
 	border-top: solid #000000;
 	border-left: solid #000000;
 	border-right: solid #000000;
@@ -409,7 +411,7 @@ figcaption {
 	
 	font-size: 1.25em;
 	
-	background-color: #2C8443;
+	background-color: #454545;
 	border-left: solid #000000;
 	border-right: solid #000000;
 	border-bottom: solid #000000;
