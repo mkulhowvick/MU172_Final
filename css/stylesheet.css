@@ -5,9 +5,7 @@
  * Color Scheme Link
  * http://paletton.com/#uid=2050u0kq3h-fPrHlfmbv5cuGq7y
  */
-* {
-	font size: 1.0em;
-}
+
 html {
 	overflow-y: scroll;
 }
@@ -318,8 +316,6 @@ figcaption {
 	padding: 0em;
 	
 	background-color: #222222;
-	
-	overflow: auto;
 }
 #sidebar {
 	width: 15%;
