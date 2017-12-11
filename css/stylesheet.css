@@ -402,6 +402,22 @@ figcaption {
 #press_release figcaption {
 	background-color: #000000;
 }
+#sponsor_letter {
+    width: 90%;
+	
+	margin-top: 0em;
+    margin-left: auto;
+	margin-bottom: 0em;
+	margin-right: auto;
+	padding: 0em;
+	
+	background-color: #000000;
+	
+	border: solid #000000;
+}
+#sponsor_letter figcaption {
+	background-color: #000000;
+}
 #footer {	
 	margin-top: 0em;
 	margin-left: 25%;
