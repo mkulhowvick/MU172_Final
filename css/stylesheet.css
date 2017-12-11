@@ -13,7 +13,6 @@ html {
 /* Text */
 p {
 	font-size: 1.25em;
-	text-indent: 1.0em;
 	margin: 0em;
 }
 h1 {
@@ -188,6 +187,9 @@ figcaption {
 .center{
 	text-align: center;
 }
+.indent {
+	text-indent: 1.0em;
+}
 .logo {
 	width: 70%;
 	
@@ -276,11 +278,13 @@ figcaption {
 	padding-bottom: 0em;
 	padding-right: 10%;
 	
+	font-size: 1.25em;
+	
 	border-spacing: 0;
 	border-collapse: collapse;
 }
 #criteria tr th {
-	width: 20%;
+	width: 17%;
 	
 	text-align: center;
 	
