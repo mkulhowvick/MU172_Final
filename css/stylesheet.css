@@ -136,18 +136,20 @@ article table tr td ul li{
 
 /* Form */
 fieldset {
-	width: 50%;
+	width: 20%;
 	margin-top: 1em;
 	margin-left: auto;
 	margin-bottom: 1em;
 	margin-right: auto;
-	
-	text-align: center;
 	font-size: 1.25em;
 	border: 1px solid #000000;
 }
-input {
+input[type=text] input[type=email] {
 	width: 50%;
+}
+input[type=radio]{
+	float: left;
+	margin-right: 1em;
 }
 
 /* Table */
@@ -211,6 +213,22 @@ figcaption {
 .image {
 	width: 100%;
 }
+.single_image {
+    width: 60%;
+	
+	margin-top: 0em;
+    margin-left: auto;
+	margin-bottom: 0em;
+	margin-right: auto;
+	padding: 0em;
+	
+	background-color: #000000;
+	
+	border: solid #000000;
+}
+.single_image figcaption {
+	background-color: #000000;
+}
 .sidebar-btn {
 	margin: 0em;
 	padding-top: 0.5em;
@@ -264,7 +282,7 @@ figcaption {
 .table-image {
     width: 100%;
 	padding: 0em;
-	margin: 0em;;
+	margin: 0em;
 }
 #criteria {
     width: 100%;
@@ -362,6 +380,22 @@ figcaption {
 	border-right: solid #000000;
 	
 	overflow: auto;
+}
+#press_release {
+    width: 90%;
+	
+	margin-top: 0em;
+    margin-left: auto;
+	margin-bottom: 0em;
+	margin-right: auto;
+	padding: 0em;
+	
+	background-color: #000000;
+	
+	border: solid #000000;
+}
+#press_release figcaption {
+	background-color: #000000;
 }
 #footer {	
 	margin-top: 0em;
