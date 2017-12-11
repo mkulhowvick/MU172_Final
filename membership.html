@@ -2,9 +2,9 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Donate</title>
+		<title>Membership</title>
 		<meta name="author" content="Mark Kulhowvick">
-		<meta name="description" content="">
+		<meta name="description" content="Contains information pertaining to the different membership levels and their perks, as well as a checkout.">
 		<link rel="stylesheet" type="text/css" media="screen" href="css/stylesheet.css">
 		<link rel="shortcut icon" href="images/icon.ico">
 	</head>
@@ -22,7 +22,7 @@
 				<li><a href="marketing.html" class="sidebar-btn">Marketing</a></li>
 				<li><a href="sponsorship.html" class="sidebar-btn">Sponsorship</a></li>
 				<li><a href="staff.html" class="sidebar-btn">Staff</a></li>
-				<li><a href="donate.html" class="sidebar-btn">Donate</a></li>
+				<li><a href="membership.html" class="sidebar-btn">Membership</a></li>
 			</ul>
 		</nav>
 		<header id="header">
@@ -31,14 +31,50 @@
 			</figure>
 		</header>
 		<article id="content">
-			<h1>Donate</h1>
+			<h1>Membership</h1>
+			<h2>Membership Levels</h2>
+			<ol>
+				<li>Friend ($25-50)
+					<ol>
+						<li>Advanced Ticketing</li>
+					</ol>
+				</li>
+			</ol>
+			<ol>
+				<li>Donor ($51-150)
+					<ol>
+						<li>Advanced Ticketing</li>
+						<li>Reduced Prices</li>
+					</ol>
+				</li>
+			</ol>
+			<ol>
+				<li>Patron ($151+)
+					<ol>
+						<li>Advanced Ticketing</li>
+						<li>Reduced Prices</li>
+						<li>Assorted Gift Bag, Yearly</li>
+					</ol>
+				</li>
+			</ol>
+			<h2>Donate</h2>
 			<form>
 				<fieldset>
 	  				<legend>Name</legend>
 					<input type="text">
 				</fieldset>
 				<fieldset>
-					<legend>Amount ($)</legend>
+	  				<legend>Email</legend>
+					<input type="email">
+				</fieldset>
+				<fieldset>
+					<legend>Tier</legend>
+					<input type="Radio">Friend ($25-50)<br>
+					<input type="Radio">Donor ($51-150)<br>
+					<input type="Radio">Patron ($151+)<br>
+				</fieldset>
+				<fieldset>
+	  				<legend>Amount ($)</legend>
 					<input type="text">
 				</fieldset>
 				<fieldset class="button">
